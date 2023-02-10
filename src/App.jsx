@@ -1,5 +1,11 @@
+import Converter from "../features/converter/Converter";
+
 function App() {
-  return <div></div>;
+  return (
+    <>
+      <Converter />
+    </>
+  );
 }
 
 export default App;
